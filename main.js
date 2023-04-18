@@ -54,13 +54,13 @@ function play(){
 }
 function loadsong(){
     title.innerHTML=songs[songindex];
-    audio.src=`/Users/Nishan Holla/documents/spotifyclone/music/${songs[songindex]}.mp3`;
-    cover.src=`/Users/Nishan Holla/documents/spotifyclone/images/${songs[songindex]}.jpg`;
+    audio.src=`./music/${songs[songindex]}.mp3`;
+    cover.src=`./images/${songs[songindex]}.jpg`;
 }
 function getsong(songindex){
     title.innerHTML=songs[songindex];
-    audio.src=`/Users/Nishan Holla/documents/spotifyclone/music/${songs[songindex]}.mp3`;
-    cover.src=`/Users/Nishan Holla/documents/spotifyclone/images/${songs[songindex]}.jpg`;
+    audio.src=`./music/${songs[songindex]}.mp3`;
+    cover.src=`./images/${songs[songindex]}.jpg`;
 }
 function pause(){
     pa.style.display="none";
